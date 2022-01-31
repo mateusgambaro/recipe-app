@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: #5a7684;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+
+.footer {
+  filter: invert(100%);
+  width: 35px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}

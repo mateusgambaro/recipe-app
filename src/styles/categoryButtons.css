@@ -1,0 +1,41 @@
+.category-container {
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  justify-content: center;
+  overflow: auto;
+  flex-wrap: wrap;
+  max-width: 300px;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+.btn-category {
+  display: flex;
+  flex-basis: 10px;
+  flex-grow: 2;
+  text-align: center;
+  background-color: #8EB8AB;
+  border-radius: 5px;
+  color: #F0F3FA;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 20px;
+  transition: all 0.3s ease-out;
+  border: 1px solid;
+}
+
+.btn-category:hover {
+  background-color: #E6EFED;
+  color: #58907d;
+}
+
+.btn-category:active {
+  background-color: #E6EFED;
+  color: #58907d;
+  cursor: default;
+  font-weight: 600
+}
